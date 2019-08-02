@@ -1,4 +1,4 @@
-# "Hackathon" de final de _Common Core_
+# "Don't Look Back" 
 
 ## Índice
 
@@ -46,6 +46,9 @@ Esta plataforma va dirigido al público en general, en especial a aquellas perso
 
 ### Prototipo Mobile
 
+![vista 1 - mobile](https://user-images.githubusercontent.com/19483987/62383337-21f29f00-b515-11e9-92c6-ad0f05f5d78c.jpg)
+
+![20190802_105715~2](https://user-images.githubusercontent.com/19483987/62383792-44d18300-b516-11e9-9203-2a91c7ca9e85.jpg)
 
 
 * Iteren, iteren, iteren.
