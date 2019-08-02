@@ -21,11 +21,11 @@ Según lo mencionado por Joel Cohen, existe una gran posibilidad que a un gran n
 
 ## Resumen del proyecto
 
-Sabemos que las serie de terror se encuentran dentro del ranking de los más preferidos por los usuarios pese a que no existen muchas series de este género. En esta plataforma, podrás enterarte de la sinopsis de tu serie favorita, quienes son los actores, trailers, la cantidad de votos, etc.
+Sabemos que las serie de terror se encuentran dentro del ranking de los más preferidos por los usuarios pese a que no existen muchas series de éste género. En esta plataforma, podrás enterarte de la sinopsis de tu serie favorita, quienes son los actores, trailers, la cantidad de votos, etc.
 
 ## ¿A quien va dirigido?
 
-Cuando se analizó al usuario se llegó a la conclusión que existen una buena cantidad de personas que disfrutan del terror, horror y suspenso, debido a este contexto el usuario al que va dirigido está orientado a los amantes de este género. Ya que a través de esta plataforma podrán obtener más información para que su fascinación pueda expandirse en conocer más de las series y así puedan disfrutar temporada tras temporada esas sensaciones.
+Esta plataforma va dirigido al público en general, en especial a aquellas personas que les encanta éste género. En este espacio podrás obtener información completa de la serie de tu interés, ver los trailers, que serie tiene mas votos y mejor calificación, entre otras novedades. 
 
 ## Imagen Final del Proyecto
 
@@ -42,6 +42,9 @@ Cuando se analizó al usuario se llegó a la conclusión que existen una buena c
 
 ## Sketch
 
+### Prototipo Web
+
+### Prototipo Mobile
 
 
 
