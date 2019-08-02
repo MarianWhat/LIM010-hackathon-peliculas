@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+</head>
+<body>
+
+
+  <section class="lazy slider">
+    <div style="background-color: black; min-height: 200px;"></div>
+    <div style="background-color: yellow; min-height: 200px;"></div>
+    <div style="background-color: black; min-height: 200px; color: white;">
+      FIN</div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+           
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+         dots: true,
+        infinite: false,
+        autoplay: true,
+        autoplaySpeed: 3000
+      });
+    });
+  </script>
+
+</body>
+</html>
