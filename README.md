@@ -17,7 +17,7 @@
 
 Según lo mencionado por Joel Cohen, existe una gran posibilidad que a un gran número de personas les llame la atención ver películas o series de terror por la similitud que pueden tener con sus propios miedos o porque les genera cierta curiosidad por seres paranormales. Esta conjunto de características hacen que el fanático del terror se coloque entre los géneros con mayor ranking  en la actualidad.
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
+ ![Pelis](https://media.giphy.com/media/toe6VTD0NmWyRLvXL3/giphy.gif)
 
 ## Resumen del proyecto
 
