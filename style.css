@@ -112,13 +112,16 @@
   }
   .sec-all-Series{
       background-color: #30302b;
+      padding: 45px 20px;
   }
   .cont-box-series{
       flex-wrap: wrap;
       margin: 0 30px;
   }
   /* Menu */
-  .navbar{}
+  .navbar{
+    margin-bottom: 16px;
+}
   .btn-genere{}
   .arrow {
     border-color: #fff transparent transparent;
@@ -130,8 +133,15 @@
     top: 44%;
     width: 0;
   }
-  .sorts-series{}
-  .select-sort{}
+  .sorts-series label{
+    margin-right: 7px;
+}
+  .select-sort{
+    padding: 11px 17px;
+    color: black;
+    border-radius: 30px;
+    background-color: hsl(53, 22%, 76%);
+}
   .modal-genere{position: fixed;top: 0;height: 100vh;background-color: #ededed;flex-wrap: wrap;padding: 20px;align-content: center;}
   
   .btn-genre{
