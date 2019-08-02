@@ -4,9 +4,13 @@ const selectSortByYear = document.getElementById('sort-by-year');
 const selectSortByRating = document.getElementById('sort-by-rating');
 const modalGenere = document.getElementById('modal-genere');
 const modalSerie = document.getElementById('modal-serie');
-
 const btnGenere = document.getElementById('btn-genere');
 const btnClose = document.getElementById('btn-close');
+let btnCerrarSerie ={};
+
+
+
+
 
 
 const series = ['the walking dead','Into the Dark','the terror', 'Stranger things', 'The passage', 'Lucifer', 'American Horror Story', 'The haunting', 'The keepers', 'Bates Motel', 'The strain', 'Slasher', 'Hannibal', 'Grimm', 'Dead set'];
@@ -69,8 +73,7 @@ apiData().then((obj) => {
   });
   accion();
 });
-let genres = '';
-let actors = '';
+
 //Funciona
 const accion = () =>{
   $(".box-cover-serie").on("click",function(){
@@ -80,23 +83,25 @@ const accion = () =>{
       return array.filter(serie => serie.title === id);
   })
   .then((serie) => {
-    genres = '';
-    actors = '';
-    console.log(serie)
-    console.log(serie.genere)
-  for (const genre of serie.genere) {
-    genres += `<span class="item-genres">${genre}</span>`
-  }
-  for (const actor of serie.actors) {
-    actors += `<span class="item-actors">${actor}</span>`
-  }
-  renderModalSerie(serie, genres, actors);
+  renderModalSerie(serie[0]);
+modalSerie.classList.replace('none', 'display-flex');
+
   })
 })
 }
 
-const renderModalSerie = (serie, genres, actors) => {
-  modalSerie.innerHTML = `<div class="partOne">
+const renderModalSerie = (serie) => {
+  modalSerie.innerHTML =`<div class="btn-cerrar-serie" id="btn-cerrar-serie">Cerrar</div>`
+
+  let genres = '';
+let actors = '';
+  for (const genre of serie.genere) {
+      genres += `<span class="item-genres">${genre}</span>`
+    }
+    for (const actor of serie.actors) {
+      actors += `<span class="item-actors">${actor}</span>`
+    }
+  modalSerie.innerHTML += `<div class="partOne">
   <div class="poster-modal-serie" style="background-image: url(${serie.poster})"></div>
   <div class="cont-text">
   <h2>${serie.title}</h2>
@@ -104,15 +109,20 @@ const renderModalSerie = (serie, genres, actors) => {
   <div class="genre-serie display-flex">${genres}</div>
   <p class="resumen">${serie.summary}</p>
 </div>
+<div class="partActors">
+<h3>Actors</h3>
+<div class="display-flex"> ${actors}</div>
+</div>
 <div class="info-ranting">
     <div class="info-ranting-rating display-flex"><img class="" src="img/icon-star.png"><span>${serie.rating}</span></div>
     <div class="info-ranting-ratingVotes display-flex"><img class="" src="img/icon-votes.png"><span>${serie.ratingVotes}</span></div>
   </div>
-</div>
-<div class="partActors">
-<h3>Actors</h3>
-<div class="display-flex"> ${actors}</div>
-</div>`;
+</div>`
+;
+btnCerrarSerie = document.getElementById('btn-cerrar-serie');
+btnCerrarSerie.addEventListener('click', () => {
+  modalSerie.classList.replace('display-flex', 'none');
+});
 }
 modalGenere.addEventListener('click', () => {
   modalGenere.classList.replace('display-flex', 'none');
@@ -120,6 +130,8 @@ modalGenere.addEventListener('click', () => {
 btnGenere.addEventListener('click', () => {
   modalGenere.classList.replace('none', 'display-flex');
 });
+
+
 // all reciente antiguo
 selectSortByYear.addEventListener('change', () => {
   UpdatedArray(selectSortByYear.value, 'all');
@@ -150,7 +162,7 @@ const renderSeries = (seriesToShow, element) => {
     element.innerHTML += `<article class="box-cover-serie" data-title="${serie.title}">
       <h3 class="box-title">${serie.title}</h3>
       <img class="box-cover" src="${serie.poster}" alt="">
-      <p class="box-year">${serie.year.substr(0,4)} • Temporadas ${serie.totalSeasons} • <img class="box-rating-img" src="img/icon-star.png">${serie.rating}</p>
+      <p class="box-year">${serie.year.substr(0,4)} • Season ${serie.totalSeasons} • <img class="box-rating-img" src="img/icon-star.png">${serie.rating}</p>
     </article>`;
   };
 };

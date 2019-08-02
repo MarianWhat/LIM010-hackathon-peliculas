@@ -15,35 +15,31 @@
     </header>
     <main>      
       <section class="este" id="">
-        <h2>The most voted Ahora sera lo nuevo</h2>
+        <h2>The most recent</h2>
         <div class="slider-most-voted" id="slider-most-voted">
         </div>
       </section>
       <section class="sec-all-Series">
           <nav class="navbar display-flex" id="navbar">
-              <button class="btn-genere" id="btn-genere">Genere<span class="arrow"></span></button>
+              <button class="btn-genere none" id="btn-genere">Genere<span class="arrow"></span></button>
               <div class="sorts-series" id="sorts-series">
                 <label>Sort by:</label>
                 <select class="select-sort" id="sort-by-year">
                     <option value="all">All</option>
-                    <option value="desc">Más reciente</option>
-                    <option value="asc">Más antiguo</option>
+                    <option value="desc">Newest</option>
+                    <option value="asc">Oldest</option>
                   </select>
                 <select class="select-sort" id="sort-by-rating">
                     <option value="all">All</option>              
-                    <option value="desc">Las más votadas</option>
-                    <option value="asc">Lás menos votadas</option>
+                    <option value="desc">The most voted</option>
+                    <option value="asc">The least voted</option>
                 </select>
               </div>
           </nav>
             <div class="cont-box-series display-flex" id="cont-all-series"></div>
       </section>
       <div class="modal-serie none" id="modal-serie">
-        
-        <!-- <div class="partActors">
-        </div>
-        <div class="resto-info">
-        </div> -->
+        <div class="btn-cerrar-serie" id="btn-cerrar-serie">Cerrar</div>
       </div>
 
       <div class="modal-genere none" id="modal-genere">      
@@ -52,17 +48,11 @@
       </div>
     </main>
     <footer>
-      <p class="display-flex">Hecho con <img src="img/cerebro.png" alt="cerebro"> por Indira | Ale Visa | ChicaX | MarianWhat</p>
+      <p class="display-flex">Hecho con <img src="img/cerebro.png" alt="cerebro"> por Indira | Ale Visa | Thanet | MarianWhat</p>
     </footer>
- 
 
-    
-    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-    <!-- <script type="text/javascript" src="slick.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="slick.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="./data.js"></script>
     <script src="./main.js"></script>
 
   </body>
