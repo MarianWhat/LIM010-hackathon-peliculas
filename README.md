@@ -1,91 +1,56 @@
-# "Hackathon" de final de _Common Core_
+# "Don't Look Back" 
 
 ## Índice
 
 * [Preámbulo](#preámbulo)
 * [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+* [¿A quien va dirigido?](#a-quien-va-dirigido)
+* [Imagen Final del Proyecto](#imagen-final-del-proyecto)
+* [Integrantes](#integrantes)
+* [Sketch](#sketch)
 
  ***
 
 ## Preámbulo
 
-Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+“En el mundo real, las personas pueden experimentar, al mismo tiempo, tanto felicidad y tristeza como euforia y ansiedad. Las personas disfrutan de la emociones aunque provengan de una fuente negativa; de lo contrario, las cosas podrían ser bastante aburridas”, Joel Cohen de la Universidad de Florida.
+
+Según lo mencionado por Joel Cohen, existe una gran posibilidad que a un gran número de personas les llame la atención ver películas o series de terror por la similitud que pueden tener con sus propios miedos o porque les genera cierta curiosidad por seres paranormales. Esta conjunto de características hacen que el fanático del terror se coloque entre los géneros con mayor ranking  en la actualidad.
 
  ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
 
 ## Resumen del proyecto
 
-Durante estos días crearán el producto que ustedes deseen alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieran!
+Sabemos que las serie de terror se encuentran dentro del ranking de los más preferidos por los usuarios pese a que no existen muchas series de éste género. En esta plataforma, podrás enterarte de la sinopsis de tu serie favorita, quienes son los actores, trailers, la cantidad de votos, etc.
 
-## Consideraciones generales
+## ¿A quien va dirigido?
 
-* Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 3 días.
+Esta plataforma va dirigido al público en general, en especial a aquellas personas que les encanta éste género. En este espacio podrás obtener información completa de la serie de tu interés, ver los trailers, que serie tiene mas votos y mejor calificación, entre otras novedades. 
 
-## Objetivos de aprendizaje
+## Imagen Final del Proyecto
 
-* Enfrentarse a un reto de corta duración en el que pongan en práctica todo
-lo aprendido hasta ahora.
-* Que sigan desarrollando sus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
 
-## Parte Obligatoria
 
-* Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_ (_project_ de Github).
-* El `README` debe contener un resumen de qué trata el proyecto, el _research_ 
-y los _sketches_.
-* El proyecto deberá presentarse publicado en github pages (no se aceptará 
-demos en local)
+## Integrantes
 
-## Consideraciones técnicas
+* Alvitez Arbaiza, Fiorella Thanet.
+* More Sisley
+* Soto Martinez, Indira.
+* Visa Serrano, Alejandra
+* Zapata Jaimes, Marian. 
 
-* El diseño visual de los componentes es de libre elección de ustedes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Tienen libertad de utilizar las tecnologías que deseen (framework de CSS, 
-plugins, etc).
 
-## Horario
+## Sketch
 
-|       | Miércoles               | Jueves                       | Viernes                 | 
-|------ | ------------------------| ---------------------------- | ----------------------- | 
-| 8:00  | Kick off hackaton       | Daily por squad              | Hacking                 |      
-| 9:00  | Sesión de planificación | Hacking                      | Hacking                 | 
-| 10:00 | Hacking                 | Compartir link de aplicación | Detalles finales        |
-| 11:00 |                         | Presentación y Feedback      | Feria de demostraciones |    
-| 12:00 |                         |                              | Deliberación            |                  
+### Prototipo Web
 
-## Tips para la organización de trabajo entre UX y Front end 
+### Prototipo Mobile
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se 
-organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo
-y a crear componentes atómicos que luego les sea fácil personalizar con CSS y 
-utilizar para crear interfaces más complejas. Además, las FE empiezan también a 
-trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de 
-estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar 
-los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Deberán tener en el planning, historias de usuario, criterios de aceptación y 
-definición de terminado.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y 
-retrospectivas diarias son esenciales.
+![vista 1 - mobile](https://user-images.githubusercontent.com/19483987/62383337-21f29f00-b515-11e9-92c6-ad0f05f5d78c.jpg)
+
+![20190802_105715~2](https://user-images.githubusercontent.com/19483987/62383792-44d18300-b516-11e9-9203-2a91c7ca9e85.jpg)
+
+
 * Iteren, iteren, iteren.
 
 ## ¿Qué es la Feria de demos?
