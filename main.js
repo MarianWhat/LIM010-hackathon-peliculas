@@ -17,7 +17,7 @@ const apiData = () => {
   allSeries = [];
   return new Promise(function (exito, reject){
     for (let serie of series){
-      fetch(`http://www.omdbapi.com/?t=${serie}&plot=full&r=json&apikey=79d0f85`)
+      fetch(`https://www.omdbapi.com/?t=${serie}&plot=full&r=json&apikey=79d0f85`)
       .then(resp => resp.json())
       .then((myJson) => {
         let newObjeto = {
